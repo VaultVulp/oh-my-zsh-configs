@@ -1,5 +1,5 @@
 ZSH_THEME="powerlevel9k/powerlevel9k"
-plugins=(git zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git docker zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
