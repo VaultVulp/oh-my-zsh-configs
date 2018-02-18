@@ -1,6 +1,6 @@
 ZSH_THEME="pure"
 ZSH_THEME="powerlevel9k/powerlevel9k"
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-completions)
+plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
