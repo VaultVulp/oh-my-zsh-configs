@@ -21,7 +21,6 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs histor
 if hash pipenv 2>/dev/null; then
     source <(pipenv --completion)
 fi
-if hash pyenv 2>/dev/null; then
-    export PATH=$(pyenv root)/shims:$PATH
-    source <($(pyenv root)/completions/pyenv.zsh)
+if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init -)"
 fi
