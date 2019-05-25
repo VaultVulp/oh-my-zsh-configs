@@ -15,3 +15,4 @@ PURE_GIT_UP_ARROW="↑"
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history battery time)
 
 source $ZSH_CUSTOM/z.sh
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh
