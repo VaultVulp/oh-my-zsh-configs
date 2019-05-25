@@ -1,6 +1,6 @@
-[submodule "themes/powerlevel9k"]
-	path = themes/powerlevel9k
-	url = https://github.com/bhilburn/powerlevel9k.git
+[submodule "themes/powerlevel10k"]
+	path = themes/powerlevel10k
+	url = git://github.com/romkatv/powerlevel10k.git
 [submodule "plugins/zsh-autosuggestions"]
 	path = plugins/zsh-autosuggestions
 	url = git://github.com/zsh-users/zsh-autosuggestions
