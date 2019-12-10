@@ -10,3 +10,5 @@ autoload -U +X bashcompinit && bashcompinit
 
 source $ZSH_CUSTOM/purepower.zsh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+export PATH="$PATH:/Users/pavelalimpiev/development/flutter/bin"
