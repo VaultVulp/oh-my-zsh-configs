@@ -16,3 +16,6 @@
 [submodule "plugins/autoswitch_virtualenv"]
 	path = plugins/autoswitch_virtualenv
 	url = https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git
+[submodule "themes/dracula"]
+	path = themes/dracula
+	url = https://github.com/dracula/zsh.git

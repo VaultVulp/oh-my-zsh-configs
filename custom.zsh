@@ -1,4 +1,5 @@
 ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="dracula/dracula"
 
 autoload -U compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
